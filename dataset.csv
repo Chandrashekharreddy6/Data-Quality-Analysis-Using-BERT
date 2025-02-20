@@ -1,0 +1,11 @@
+Text,Anomaly
+"User transferred $5000 to external account",1
+"Login attempt failed multiple times",-1
+"New device login detected from another country",-1
+"User withdrew $50,000 in cash",-1
+"Suspicious login detected",-1
+"Regular shopping transaction at Walmart",1
+"User deposited $3000 into savings account",1
+"System detected unusual spending patterns",-1
+"Credit card declined due to suspicious activity",-1
+"User transferred $10 to a friend",1
