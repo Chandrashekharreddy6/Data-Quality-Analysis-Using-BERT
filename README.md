@@ -5,6 +5,11 @@
 # NOTE:IN THIS PROJECT WE HAVE TAKEN A SIMPLE DATASET.
 # THIS Project Also has multiple Visualizations that helps in understanding the Data Quality Analysis using BERT.
 # The visualizations are :-
-    # CLASS DISTRIBUTION BEFORE UNDERSAMPLING :- 
+     CLASS DISTRIBUTION BEFORE UNDERSAMPLING :- 
 ![Figure_1](https://github.com/user-attachments/assets/ae7f444e-7a96-4866-b53a-64a0253d441b)
+    
+     CLASS DISTRIBUTION AFTER UNDERSAMPLING :-
+     ![Figure_2](https://github.com/user-attachments/assets/7b6f4fe9-6240-447c-b616-52cb642bb934)
+
+
 
