@@ -22,7 +22,9 @@
 
       ROC CURVE FOR ANOMALY DETECTION :-
 
-![feature](https://github.com/user-attachments/assets/17ef5904-b35c-40e6-8fa2-bb5fe50fc55f)
+
+![ROC](https://github.com/user-attachments/assets/32141888-384f-4742-9905-cf5041f0712a)
+
 
       
 
