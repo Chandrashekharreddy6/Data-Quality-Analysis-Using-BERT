@@ -1,0 +1,1 @@
+pip install pandas numpy seaborn matplotlib scikit-learn transformers torch imblearn flask flask-cors
