@@ -11,5 +11,25 @@
      CLASS DISTRIBUTION AFTER UNDERSAMPLING :-
 ![Figure_2](https://github.com/user-attachments/assets/7b6f4fe9-6240-447c-b616-52cb642bb934)
 
+     CONFUSION MATRIX :-
+![confusion matrix](https://github.com/user-attachments/assets/41effa5c-e87a-4b00-a596-058ce30dc3d7)
+
+     PCA VISULAIZATIONS OF BERT EMBEDDINGS :-
+![PCA](https://github.com/user-attachments/assets/0261d01a-3a69-4114-9a9e-46ad8a29d8ce)
+
+     FEATURE IMPORTANCE(RANDOM FOREST) :-
+![feature](https://github.com/user-attachments/assets/d1a3ce23-c215-48ac-9f63-298a716be755)
+
+      ROC CURVE FOR ANOMALY DETECTION :-
+
+![feature](https://github.com/user-attachments/assets/17ef5904-b35c-40e6-8fa2-bb5fe50fc55f)
+
+      
+
+
+
+
+
+
 
 
