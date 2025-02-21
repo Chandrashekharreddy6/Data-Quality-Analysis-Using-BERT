@@ -11,6 +11,15 @@
      CLASS DISTRIBUTION AFTER UNDERSAMPLING :-
 ![Figure_2](https://github.com/user-attachments/assets/7b6f4fe9-6240-447c-b616-52cb642bb934)
 
+     ANOMALY SCORE DETECTION :-
+![anamoly](https://github.com/user-attachments/assets/c87a6d13-0b80-462d-a33e-906df303d2e5)
+
+     WORD COUNT DISTRIBUTION :-
+![WORD](https://github.com/user-attachments/assets/2ff20de5-4954-4c3b-8223-b944e752e2a8)
+
+     CHARACTER COUNT DISTRIBUTION :-
+![CHAR](https://github.com/user-attachments/assets/78e87c0a-ed95-4758-93a1-f94e47b751ed)
+
      CONFUSION MATRIX :-
 ![confusion matrix](https://github.com/user-attachments/assets/41effa5c-e87a-4b00-a596-058ce30dc3d7)
 
@@ -21,8 +30,6 @@
 ![feature](https://github.com/user-attachments/assets/d1a3ce23-c215-48ac-9f63-298a716be755)
 
       ROC CURVE FOR ANOMALY DETECTION :-
-
-
 ![ROC](https://github.com/user-attachments/assets/32141888-384f-4742-9905-cf5041f0712a)
 
 
