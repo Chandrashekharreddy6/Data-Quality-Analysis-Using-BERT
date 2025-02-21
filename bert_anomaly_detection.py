@@ -102,6 +102,32 @@ print("🔹 Test Set Distribution:", Counter(y_test))
 print("\n📊 Classification Report (Random Forest):")
 print(classification_report(y_test, rf_predictions, zero_division=1))
 
+#  Visualization: Anomaly Score Distribution
+anomaly_scores = iso_forest.decision_function(X_test)
+
+plt.figure(figsize=(8, 4))
+sns.histplot(anomaly_scores, bins=20, kde=True, color='red')
+plt.title("Anomaly Score Distribution (Isolation Forest)")
+plt.xlabel("Anomaly Score")
+plt.show()
+
+# Visualizations: Word Count & Character Count
+data['Word_Count'] = data['Text'].apply(lambda x: len(x.split()))
+data['Char_Count'] = data['Text'].apply(lambda x: len(x))
+
+plt.figure(figsize=(8, 4))
+sns.histplot(data['Word_Count'], bins=20, kde=True, color='blue')
+plt.title("Distribution of Word Count")
+plt.xlabel("Number of Words")
+plt.show()
+
+plt.figure(figsize=(8, 4))
+sns.histplot(data['Char_Count'], bins=20, kde=True, color='green')
+plt.title("Distribution of Character Count")
+plt.xlabel("Number of Characters")
+plt.show()
+
+
 # Visualization 3: Confusion Matrix
 plt.figure(figsize=(6, 5))
 conf_matrix = confusion_matrix(y_test, rf_predictions)
@@ -152,4 +178,4 @@ else:
 with open('bert_anomaly_model.pkl', 'wb') as f:
     pickle.dump(iso_forest, f)
 
-print("✅ Model training and visualization completed successfully!")
+print("✅ Data Quality Analysis and visualization completed successfully!")
